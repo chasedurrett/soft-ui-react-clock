@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+.clock_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #e8eff5;
+}
+
+.clock_background, .analog_clock_background {
+  background-color: #e8eff5;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: 7px 7px 15px #bbcfda, -4px -4px 19px #fff,
+    inset 4px 4px 8px rgba(209, 217, 230, 0.2),
+    inset -8px -8px 8px rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.digital_clock {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  background-color: #e8eff5;
+  color: #727272b6;
+}
+
+.analog-clock {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  border-radius: 50%;
+  position: relative;
+  background: #fff;
+}
