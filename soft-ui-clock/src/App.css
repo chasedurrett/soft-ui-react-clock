@@ -11,7 +11,8 @@
   background-color: #e8eff5;
 }
 
-.clock_background, .analog_clock_background {
+.clock_background,
+.analog_clock_background {
   background-color: #e8eff5;
   height: 200px;
   width: 300px;

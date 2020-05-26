@@ -1,7 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import ClockComp from "./components/Clock"
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import ClockComp from "./components/Clock";
 
 function App() {
   return (
